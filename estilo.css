@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #23261F;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color: blanchedalmond;
+}
+a:-webkit-any-link{
+    color: blanchedalmond;
+}
+a:-moz-any-link{
+    color: blanchedalmond;
+}
+a:hover{
+    color: #BF7E04;
+}
+#navegador{
+    position : fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    font-size: 50px;
+    background-color: #23261F;
+    border-bottom: 1px solid wheat;
+}
+#inicio{
+    background-image: url(/img/baner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0px 0px 30px;
+
+    color: blanchedalmond;
+    font-size: 50px;
+}
+li{
+    list-style: none;
+}
+
+#tipos-de-guitarra{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.tarjetas-tipos-guitarra{
+    font-size: 30px;
+    text-align: center;
+
+    background-color: #BF7E04;
+    
+    border: 3px solid #23261F;
+    border-radius: 30px;
+    height: 700px;
+    width: 500px;
+
+}
+.imagen-con-borde{
+    border-radius: 30px 30px 0px 0px;
+}
+
+#porque-elegirnos{
+    background-color: rgb(255, 249, 229);
+    height: 300px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: 6px solid #23261F;
+    border-bottom: 6px solid #23261F;
+
+}
+
+.descripcion-guitarra{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+.tarjetas{
+    padding-top: 40px;
+    background-color: rgb(255, 249, 229);
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 10px;
+    border-top: 6px solid #23261F;
+    border-bottom: 6px solid #23261F;
+
+
+}
+.dentro-targeta{
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#guitarra-acustica{
+    display: flex;
+}
+footer{
+    color: bisque;
+    font-size: 30px;
+    text-align: center;
+}
